@@ -206,7 +206,11 @@ body {
     height: 80vh;
 
 		}
-		
+.banner .card .heading {
+  margin-top: 40vh;
+  margin-bottom:10vh; 
+     }
+
 	.about-class{
 	width: 90%
 
@@ -214,19 +218,14 @@ body {
   .row {
     flex-direction: column;
   }
-  .row .image {
-    order: -1;
-
-  }
+ 
   .row .my-image{
-    width: 70vw;
+    width: 60vw;
 	
   }
 
 
   .sidenav {
     visibility: hidden;
-  }
-
-  
+  } 
 }
